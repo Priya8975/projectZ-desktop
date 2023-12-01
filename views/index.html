@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <button class="tablink" onclick="openPage('Home', this)" id="defaultOpen">Project Z</button>
+  <button class="tablink" onclick="openPage('Files', this)">Files</button>
+  <button class="tablink" onclick="openPage('About', this)">About</button>
+
+  <div id="Home" class="tabcontent">
+    <div class="content">
+      <a href="#" class="btn">Start</a>
+      <p class="notice"> Server is not running </p>
+
+      <p class="terminal">
+        
+      </p>
+    </div>
+  </div>
+
+  <div id="Files" class="tabcontent">
+    <div class="content">
+      <a href="#" class="btn2">Start</a>
+      <p class="notice2"> FTP Server is not running </p>
+
+      <p class="file-notice"></p>
+    </div>
+  </div>
+
+  <div id="About" class="tabcontent">
+    <div class="content-about">
+      <p class="system">
+        System Info : <br>
+        <p class="sys-info">
+
+        </p>
+      </p>
+
+      <p class="extra-notice">
+        This application is built as a part of Project-Z remote interaction system.
+      </p>
+    </div>
+  </div>
+
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
